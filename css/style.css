@@ -1,0 +1,210 @@
+body
+{
+    /* background-color: black; */
+    background-color: #131518;
+    color: white;
+}
+.sideMenuOption
+{
+    
+    position: fixed;
+     top: 0%; 
+     height: 100%; 
+  
+     left: 0%; 
+     bottom: 0%; 
+    background-color: rgb(0, 0, 0);
+    z-index: 99999;
+    /* display: flex; */
+    overflow: hidden;
+}
+.wNav
+{
+    background-color: white;
+    /* position: fixed;*/
+    /* top: 0%;
+    left: 0%;  */
+    position: relative;
+    height: 100%;
+    width: 60px;
+    float: left;
+    z-index: 1000;
+    transition: all 1s;
+}
+.imge
+{
+    position: relative;
+}
+.imge img 
+{
+    width: 50%;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+#close
+{
+    color: #131518;
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    top: 320px;
+    left: 17px;
+    cursor: pointer;
+    display: none;
+  
+}
+.menuIcon 
+{
+    color: #131518;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    top: 320px;
+    left: 15px;
+    cursor: pointer;
+}
+.Icon1
+{
+    color: #131518;
+    font-size: 14px;
+    font-weight: 900;
+    position: relative;
+    bottom: 90px;
+    left: 216px;
+    cursor: pointer;
+}
+.Icon2
+{
+    color: #131518;
+    font-size: 14px;
+    font-weight: 900;
+    position: relative;
+    bottom: 70px;
+    left: 216px;
+    cursor: pointer;
+}
+.blackNav
+{
+    position: relative;
+    /* top: 0%;
+    left: 0%; */
+	width: 200px;
+	height: 100vh;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    display: none;
+    transition: all 1s ;
+    z-index: 400;
+}
+.blackNav ul
+{
+    margin-top: 20px;
+    overflow: hidden;
+}
+.blackNav li
+{
+list-style: none;
+/* padding:10px ;
+cursor: pointer;
+opacity: 0; */
+padding-top: 500px;
+    opacity: 0;
+  font-size: 1.2rem;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+.blackNav a 
+{
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+.blackNav a:hover
+{
+    
+    color: rgb(20, 139, 20);
+}
+.form-control
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.664);
+    border-radius: 0;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+/* .form-check-inline
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.664);
+    border-radius: 0;
+    color: rgb(255, 255, 255);
+    font-weight: 400;  
+} */
+.icons
+{
+    display: flex;
+    justify-content: center;
+}
+.cr
+{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    font-size: 15px;
+}
+.itms
+{ 
+
+  overflow: hidden;
+ 
+    
+}
+.itms .itm 
+{   
+    
+    text-align: center;
+    
+    position: relative;
+    overflow: hidden;
+}
+.itms .itm img 
+{
+    width: 100%;
+    transition: all 1s 1s ;
+}
+.itms .itm .overlay 
+{    padding-top: 40px;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    color: white;
+    opacity: 0;
+    transition: all 1s; 
+}
+.itm .overlay h2
+{    padding: 40px;
+   
+}
+.overlay h5
+{
+    font-weight: 100;
+}
+.itm .overlay p
+{    padding: 40px;
+   font-size: 15px;
+}
+.itms .itm:hover .overlay
+{
+    top: 0;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+.itms .itm:hover img
+{
+    transform: scale(1.2);
+}
